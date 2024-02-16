@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery App</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="container mt-5">
+  <h2>Add Title and Rating</h2>
+  <form id="titleRatingForm">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title:</label>
+      <input type="text" class="form-control" id="title" required>
+    </div>
+    <div class="mb-3">
+      <label for="rating" class="form-label">Rating:</label>
+      <input type="number" class="form-control" id="rating" required>
+    </div>
+    <div class="mb-3">
+      <button id="sortByTitle" class="btn btn-secondary">Sort by Title</button>
+      <button id="sortByRating" class="btn btn-secondary">Sort by Rating</button>
+    </div> 
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div id="itemsList" class="mt-4">
+    <!-- Items will be added here -->
+  </div>
+</div>
+
+<script>
+  // jQuery code will go here
+</script>
+<script  src="app.js"></script>
+</body>
+</html>
